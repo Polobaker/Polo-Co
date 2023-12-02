@@ -1,0 +1,88 @@
+body{
+	background: black;
+	font-family: 'Roboto', sans-serif;
+	color: whitesmoke;
+	font-size: 17px;
+	 margin-top: 0;
+}
+
+img {
+  filter: grayscale(100%);
+}
+
+h1{
+	font-size: 130px;
+	font-family:Arial;
+	 margin-bottom: 0;
+}
+
+@media (max-width: 500px){
+	.#titre{
+		font-size:90px;
+	}
+}
+
+
+p{
+	font-size: 18px;
+}
+
+#intro p {
+	margin-bottom: 40px;
+}
+
+/*Design site*/
+.onglets {
+	width:1200px;
+	padding: 30px;
+	margin: 30px auto;
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.onglets:hover {
+    background-color: white;
+    color: black;
+}
+
+.onglets:hover .contact_inline i {
+    color: black;
+    transition: color 0.3s, opacity 0.3s;
+}
+
+@media (max-width: 700px){
+	.onglets{
+		width:600px;
+	}
+}
+
+@media (max-width: 500px){
+	.onglets{
+		width:400px;
+	}
+}
+
+.contact_inline {
+	list-style: none;
+	padding-left: 0;
+}
+
+.contact_inline li {
+	display: inline;
+	padding: 15px;
+	im
+}
+
+.contact_inline i {
+	font-size: 50px;
+	color: white;
+}
+
+.pieddepage{
+		font-size:10px;
+		font-family:Arial;
+		padding: 10px 20px 5px 20px;
+		margin: 10px 20px 5px 20px;
+}
